@@ -44,9 +44,7 @@ if (!is_null($events['events'])) {
 			
 			$messages = [
 				'type' => 'text',
-				'text' => '1.abc 
-					   2.eddd 
-				           3.24242'
+				'text' => '1.abc\n2.kkkkkk\n3.998898892323wfwq'
 			];
 			// Make a POST Request to Messaging API to reply to sender
 			$url = 'https://api.line.me/v2/bot/message/reply';
