@@ -23,24 +23,31 @@ if (!is_null($events['events'])) {
 				'text' => 'เราได้รับ 1'
 			];
 			}
-						if($text == '2'){
+			if($text == '2'){
 			$messages = [
 				'type' => 'text',
 				'text' => 'เราได้รับ 2'
 			];
 			}
-						if($text == '3'){
+			if($text == '3'){
 			$messages = [
 				'type' => 'text',
 				'text' => 'เราได้รับ 3'
 			];
 			}
-						if($text == '4'){
+			if($text == '4'){
 			$messages = [
 				'type' => 'text',
 				'text' => 'เราได้รับ 4'
 			];
 			}
+			
+			$messages = [
+				'type' => 'text',
+				'text' => '1.abc 
+					   2.eddd 
+				           3.24242'
+			];
 			// Make a POST Request to Messaging API to reply to sender
 			$url = 'https://api.line.me/v2/bot/message/reply';
 			$data = [
